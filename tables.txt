@@ -1,0 +1,7 @@
+Employer.txt - ID,Seniority,BirthYear,Employer Id,Title (Save the employee details)
+Planes.txt- ID,ModelNumber, MANAGER x-NAVIGATOR y-FLY_ATTENDANT z-PILOT c-OTHER a,Employer Id,Title (Save the plane details)
+Reservations.txt - ID,Customer ID,Flight ID, FIRST_CLASS or SECOND_CLASS, MaxBaggage (save the reservations details)
+countId.txt- C:x,E:y,F:z,P:c,R:t (x,y,z,c,t - int number) - (save the count id for reuse)
+EmployeeAtWork.txt - E:x,F:y (x,y int number) - (save the employees id that work in a specification flight)
+FlightOfPlanes.txt - P:x,F:y (x, y int number) (save the planes that have a specification flight)
+PlaneModels.txt  - x,F:y (x plane model number, y int number) - (save the all planes by specific model). 
